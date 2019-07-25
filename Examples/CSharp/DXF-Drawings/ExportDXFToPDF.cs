@@ -13,7 +13,7 @@ namespace Aspose.CAD.Examples.CSharp.DXF_Drawings
             //ExStart:ExportDXFToPDF
             // The path to the documents directory.
             string MyDir = RunExamples.GetDataDir_DXFDrawings();
-            string sourceFilePath = MyDir + "conic_pyramid.dxf";
+            string sourceFilePath = MyDir + "DT-00.dxf";//"conic_pyramid.dxf";
             using (Aspose.CAD.Image image = Aspose.CAD.Image.Load(sourceFilePath))
             {
                 // Create an instance of CadRasterizationOptions and set its various properties

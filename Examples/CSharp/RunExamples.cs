@@ -36,8 +36,8 @@ namespace Aspose.CAD.Examples.CSharp
             //// =====================================================
             //// =====================================================
 
-            //ExportToPDF.Run();
-            //ExportSpecificLayoutToPDF.Run();
+           // ExportToPDF.Run();
+           // ExportSpecificLayoutToPDF.Run();
             //GetBlockAttributeValue.Run();
             //SearchText.Run();
             //SupportMLeaderEntityForDWGFormat.Run();
@@ -54,9 +54,9 @@ namespace Aspose.CAD.Examples.CSharp
             //// =====================================================
             //// =====================================================
 
-            //ExportDXFToPDF.Run();
+            ExportDXFToPDF.Run();
             //ExportDXFSpecificLayerToPDF.Run();
-            //ExportDXFSpecificLayoutToPDF.Run();
+           // ExportDXFSpecificLayoutToPDF.Run();
             //SaveDXFFiles.Run();
             //AddAttribute.Run();
             //SupportOfBlockClipping.Run();
@@ -73,7 +73,7 @@ namespace Aspose.CAD.Examples.CSharp
             //GetSizeOfCADLayout.Run();
             //ConvertDrawingToRasterImage.Run();
             //ListLayouts.Run();
-            //ConvertLayoutsToRasterImage.Run();
+            ConvertLayoutsToRasterImage.Run();
             //MeshSupport.Run();
             //IntegrateIGESFormat.Run();
             //SettingCanvasSizeAndMode.Run();
@@ -81,7 +81,7 @@ namespace Aspose.CAD.Examples.CSharp
             //SettingAutoLayoutScaling.Run();
             //EnableTrackingForCADRendering.Run();
             //SubstitutingFonts.Run();
-            //CADLayersToRasterImageFormats.Run();
+            CADLayersToRasterImageFormats.Run();
 
             //// =====================================================
             //// =====================================================
@@ -89,7 +89,7 @@ namespace Aspose.CAD.Examples.CSharp
             //// =====================================================
             //// =====================================================
 
-            //Export3DImagestoPDF.Run();
+             Export3DImagestoPDF.Run();
             //CADLayoutsToPDF.Run();
             //ExportToBMP.Run();
             //ExportDWFToPDF.Run();

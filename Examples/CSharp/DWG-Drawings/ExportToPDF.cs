@@ -13,7 +13,7 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
             //ExStart:ExportToPDF
             // The path to the documents directory.
             string MyDir = RunExamples.GetDataDir_DWGDrawings();
-            string sourceFilePath = MyDir + "Bottom_plate.dwg";
+            string sourceFilePath = MyDir + "666368_1.DWG";//"Bottom_plate.dwg";
             using (Aspose.CAD.Image image = Aspose.CAD.Image.Load(sourceFilePath))
             {
                 // Create an instance of CadRasterizationOptions and set its various properties
@@ -21,7 +21,8 @@ namespace Aspose.CAD.Examples.CSharp.DWG_Drawings
                 rasterizationOptions.BackgroundColor = Aspose.CAD.Color.White;
                 rasterizationOptions.PageWidth = 1600;
                 rasterizationOptions.PageHeight = 1600;
-
+                // Set Layouts
+                rasterizationOptions.Layouts = new string[] { "Layout1" };
                 // Create an instance of PdfOptions
                 Aspose.CAD.ImageOptions.PdfOptions pdfOptions = new Aspose.CAD.ImageOptions.PdfOptions();
                 // Set the VectorRasterizationOptions property
